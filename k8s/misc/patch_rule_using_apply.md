@@ -1,7 +1,7 @@
 # 使用apply patch的规则
 
 > prerequisite
-> 
+>
 > 使用apply应用配置时，会在metadata中新增一个注解：last-applied-configuration，这个注解的内容始终和最新apply的配置的文件保持一致，用于使用apply进行patch时计算删除的字段。注意这个注解不一定和运行中的配置（现时配置）一致，因为其他kubectl的命令例如patch，scale都可以增加字段。
 
 ## 合并补丁计算

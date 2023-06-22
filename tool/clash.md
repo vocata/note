@@ -83,6 +83,7 @@ source $HOME/.proxy
 ## 验证
 
 请求google官网，能访问即配置成功
+
 ```bash
 curl www.google.com
 ```

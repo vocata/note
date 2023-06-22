@@ -7,4 +7,3 @@ ip是iproute2包的工具之一，提供了更多网络相关的功能，可以�
 这里提供ifconfig命令在ip中对应的操作
 
 ![ip_vs_ifconfig](./pic/ip_vs_ifconfig.png)
-
